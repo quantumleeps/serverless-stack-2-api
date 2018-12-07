@@ -17,7 +17,7 @@ Resources:
       ClientName: ${self:custom.stage}-user-pool-client
       UserPoolId:
         Ref: CognitoUserPool
-      ExplicityAuthFlows:
+      ExplicitAuthFlows:
         - ADMIN_NO_SRP_AUTH
       GenerateSecret: false
 
